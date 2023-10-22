@@ -43,17 +43,7 @@ const LoginPage = () => {
                         Bu rastgele bir metindir. Bu rastgele bir metindir. Bu rastgele bir metindir.
                         <a
                             href=""
-                        >
-                            Bu rastgele bir linktir tıklanabilir.
-                        </a>
-                        Bu rastgele bir metindir.Bu rastgele bir metindir.
-                    </p>
-                    <p>
-                        Bu rastgele bir metindir. Bu rastgele bir metindir. Bu rastgele bir metindir.
-                        <a
-                            href=""
-                        >
-                            Bu rastgele bir linktir tıklanabilir.
+                        > Bu rastgele bir linktir tıklanabilir.
                         </a>
                         Bu rastgele bir metindir.Bu rastgele bir metindir.
                     </p>
@@ -61,18 +51,16 @@ const LoginPage = () => {
                 <div
                     className={classes.links}
                 >
-                    <a
-                        href="
-                    
-                    ">
-                        Deneme Linki
-                    </a>
-                    <a
-                        href="
-                    
-                    ">
-                        Privacy Policy
-                    </a>
+                    <div
+                        className={classes.link}
+                    >
+
+                    </div>
+                    <div
+                        className={classes.link}
+                    >
+
+                    </div>
                 </div>
 
             </div>
@@ -83,8 +71,7 @@ const LoginPage = () => {
             <div
                 className={classes.header}
             >
-                <h2>LOGIN</h2>
-                <h5>Please login to your account</h5>
+
             </div>
             <div
                 className={classes.container}
