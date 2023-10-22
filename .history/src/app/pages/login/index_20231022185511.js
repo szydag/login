@@ -11,13 +11,13 @@ const LoginPage = () => {
     }, [window.location.search])
 
     return <div
-        className='loginPage'
+        className={loginPage}
     >
         <div
-            className='promotionTexts'
+            className={classes.promotionTexts}
         >
             <div
-                className='logo'
+                className={classes.logo}
             >
                 <img
                     src={logo}
@@ -25,16 +25,16 @@ const LoginPage = () => {
                 />
             </div>
             <div
-                className='mainContent'
+                className={classes.mainContent}
             >
                 <div
-                    className='title'
+                    className={classes.title}
                 >
                     <h1>WELCOME</h1>
                     <h1>BACK!</h1>
                 </div>
                 <div
-                    className='contentText'
+                    className={classes.contentText}
                 >
                     <p>
                         Bu rastgele bir metindir. Bu rastgele bir metindir. Bu rastgele bir metindir. Bu rastgele bir metindir.Bu rastgele bir metindir.Bu rastgele bir metindir.
@@ -59,7 +59,7 @@ const LoginPage = () => {
                     </p>
                 </div>
                 <div
-                    className='links'
+                    className={classes.links}
                 >
                     <a
                         href="
@@ -78,47 +78,47 @@ const LoginPage = () => {
             </div>
         </div>
         <div
-            className='loginArea'
+            className={classes.loginArea}
         >
             <div
-                className='header'
+                className={classes.header}
             >
                 <h2>LOGIN</h2>
                 <h5>Please login to your account</h5>
             </div>
             <div
-                className='container'
+                className={classes.container}
             >
                 <div
-                    className='loginMainContent'
+                    className={classes.loginMainContent}
                 >
                     <div
-                        className='inputArea'
+                        className={classes.inputArea}
                     >
                         <div
-                            className='mailInput'
+                            className={classes.mailInput}
                         >
                             <div
-                                className='content'
+                                className={classes.content}
                             >
 
                             </div>
                             <div
-                                className='inputTitle'
+                                className={classes.inputTitle}
                             >
 
                             </div>
                         </div>
                         <div
-                            className='passwordInput'
+                            className={classes.passwordInput}
                         >
                             <div
-                                className='content'
+                                className={classes.content}
                             >
 
                             </div>
                             <div
-                                className='inputTitle'
+                                className={classes.inputTitle}
                             >
 
                             </div>
@@ -126,36 +126,36 @@ const LoginPage = () => {
                         </div>
                     </div>
                     <div
-                        className='passwordSettingsArea'
+                        className={classes.passwordSettingsArea}
                     >
                         <div
-                            className='memberMeArea'
+                            className={classes.memberMeArea}
                         >
 
                         </div>
                     </div>
                 </div>
                 <div
-                    className='loginButton'
+                    className={classes.loginButton}
                 >
 
                 </div>
             </div>
             <div
-                className='accountSettings'
+                className={classes.accountSettings}
             >
                 <div
-                    className='accountSettingsTitle'
+                    className={classes.accountSettingsTitle}
                 >
 
                 </div>
                 <div
-                    className='socialMediaIcons'
+                    className={classes.socialMediaIcons}
                 >
 
                 </div>
                 <div
-                    className='newAccountArea'
+                    className={classes.newAccountArea}
                 >
 
                 </div>
