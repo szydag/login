@@ -12,13 +12,13 @@ const LoginPage = () => {
 
     const classes = useStyles();
     return <div
-        className={classes.loginPage}
+        className='loginPage'
     >
         <div
-            className={classes.promotionTexts}
+            className='promotionTexts'
         >
             <div
-                className={classes.logo}
+                className='logo'
             >
                 <img
                     src={logo}
@@ -26,16 +26,16 @@ const LoginPage = () => {
                 />
             </div>
             <div
-                className={classes.mainContent}
+                className='mainContent'
             >
                 <div
-                    className={classes.title}
+                    className='title'
                 >
                     <h1>WELCOME</h1>
                     <h1>BACK!</h1>
                 </div>
                 <div
-                    className={classes.contentText}
+                    className='contentText'
                 >
                     <p>
                         Bu rastgele bir metindir. Bu rastgele bir metindir. Bu rastgele bir metindir. Bu rastgele bir metindir.Bu rastgele bir metindir.Bu rastgele bir metindir.
@@ -60,7 +60,7 @@ const LoginPage = () => {
                     </p>
                 </div>
                 <div
-                    className={classes.links}
+                    className='links'
                 >
                     <a
                         href="
@@ -79,28 +79,28 @@ const LoginPage = () => {
             </div>
         </div>
         <div
-            className={classes.loginArea}
+            className='loginArea'
         >
             <div
-                className={classes.header}
+                className='header'
             >
                 <h2>LOGIN</h2>
                 <h5>Please login to your account</h5>
             </div>
             <div
-                className={classes.container}
+                className='container'
             >
                 <div
-                    className={classes.loginMainContent}
+                    className='loginMainContent'
                 >
                     <div
-                        className={classes.inputArea}
+                        className='inputArea'
                     >
                         <div
-                            className={classes.mailInput}
+                            className='mailInput'
                         >
                             <div
-                                className={classes.content}
+                                className='content'
                             >
                                 <MailIcon
                                     color='#ffffff'
@@ -109,16 +109,16 @@ const LoginPage = () => {
 
                             </div>
                             <div
-                                className={classes.inputTitle}
+                                className='inputTitle'
                             >
                                 <h5>Your E-mail  Address</h5>
                             </div>
                         </div>
                         <div
-                            className={classes.passwordInput}
+                            className='passwordInput'
                         >
                             <div
-                                className={classes.content}
+                                className='content'
                             >
                                 <PasswordIcon
                                     color='#ffffff'
@@ -133,7 +133,7 @@ const LoginPage = () => {
                                 </HiddenIcon>
                             </div>
                             <div
-                                className={classes.inputTitle}
+                                className='inputTitle'
                             >
                                 <h5>Your Password</h5>
                             </div>
@@ -141,10 +141,10 @@ const LoginPage = () => {
                         </div>
                     </div>
                     <div
-                        className={classes.passwordSettingsArea}
+                        className='passwordSettingsArea'
                     >
                         <div
-                            className={classes.memberMeArea}
+                            className='memberMeArea'
                         >
                             <h5>Member Me</h5>
                         </div>
@@ -156,21 +156,21 @@ const LoginPage = () => {
                     </div>
                 </div>
                 <div
-                    className={classes.loginButton}
+                    className='loginButton'
                 >
                     <h3>Login</h3>
                 </div>
             </div>
             <div
-                className={classes.accountSettings}
+                className='accountSettings'
             >
                 <div
-                    className={classes.accountSettingsTitle}
+                    className='accountSettingsTitle'
                 >
 
                 </div>
                 <div
-                    className={classes.socialMediaIcons}
+                    className='socialMediaIcons'
                 >
                     <GoogleIcon
                         color='#ffffff'
@@ -189,7 +189,7 @@ const LoginPage = () => {
                     </LinkedInIcon>
                 </div>
                 <div
-                    className={classes.newAccountArea}
+                    className='newAccountArea'
                 >
 
                 </div>

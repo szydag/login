@@ -160,14 +160,8 @@ const useStyles = createUseStyles({
         gap: '8px',
     },
     socialMediaIcons: {
-        width: '140px',
-        height: '31.492px',
     },
     newAccountArea: {
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'flex-start',
-        gap: '16px',
     },
 })
 export default useStyles;

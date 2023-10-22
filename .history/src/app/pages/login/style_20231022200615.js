@@ -164,10 +164,6 @@ const useStyles = createUseStyles({
         height: '31.492px',
     },
     newAccountArea: {
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'flex-start',
-        gap: '16px',
     },
 })
 export default useStyles;
