@@ -4,7 +4,7 @@ import useStyles from "./style";
 const App = () => {
     const classes = useStyles();
     return <div
-        className={classes.main}
+     className={classes.main}
     >
         <LoginPage />
     </div>

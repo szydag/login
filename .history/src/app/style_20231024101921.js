@@ -29,7 +29,6 @@ const useStyles = createUseStyles({
         }
     ],
     main: {
-        fontFamily: "Quicksand-SemiBold",
         width: '100vw',
         height: '100vh',
     },

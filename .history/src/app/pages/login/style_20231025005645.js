@@ -80,7 +80,7 @@ const useStyles = createUseStyles({
         gap: '8px',
     },
     loginArea: {
-        width: '35vw',
+        width: '40vw',
         display: 'flex',
         padding: '64px',
         flexDirection: 'column',

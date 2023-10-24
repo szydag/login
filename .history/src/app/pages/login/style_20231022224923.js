@@ -2,45 +2,16 @@
 import { createUseStyles } from "react-jss";
 
 const useStyles = createUseStyles({
-    "@font-face": [
-        {
-            fontFamily: "Quicksand-Bold",
-            src: 'url("/public/assets/fonts/Quicksand-Bold.ttf")',
-            fontStyle: "normal"
-        },
-        {
-            fontFamily: "Quicksand-Light",
-            src: 'url("/public/assets/fonts/Quicksand-Light.ttf")',
-            fontStyle: "normal"
-        },
-        {
-            fontFamily: "Quicksand-Medium",
-            src: 'url("/public/assets/fonts/Quicksand-Medium.ttf")',
-            fontStyle: "normal"
-        },
-        {
-            fontFamily: "Quicksand-Regular",
-            src: 'url("/public/assets/fonts/Quicksand-Regular.ttf")',
-            fontStyle: "normal"
-        },
-        {
-            fontFamily: "Quicksand-SemiBold",
-            src: 'url("/public/assets/fonts/Quicksand-SemiBold.ttf")',
-            fontStyle: "normal"
-        }
-    ],
-    h1: {
-        fontFamily: 'Quicksand-SemiBold',
-    },
     loginPage: {
         display: 'flex',
         padding: '120px 80px',
+        width: '100%',
+        height: '100%',
         alignItems: 'flex-start',
         gap: '80px',
         background: 'linear-gradient(113deg, #B9A675 0%, #D685D3 0%, #5CAEE9 100%)',
     },
     promotionTexts: {
-        width: '50vw',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'flex-start',
@@ -80,7 +51,6 @@ const useStyles = createUseStyles({
         gap: '8px',
     },
     loginArea: {
-        width: '35vw',
         display: 'flex',
         padding: '64px',
         flexDirection: 'column',
