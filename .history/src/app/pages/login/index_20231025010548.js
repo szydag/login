@@ -96,14 +96,10 @@ const LoginPage = () => {
                     <div
                         className={classes.inputArea}
                     >
+                        <input type="text" />
                         <div
                             className={classes.mailInput}
                         >
-                            <input
-                                className={classes.mailInput}
-                                type="text"
-                                placeholder='example@gmail.com'
-                            />
                             <div
                                 className={classes.content}
                             >

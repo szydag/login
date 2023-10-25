@@ -99,6 +99,7 @@ const LoginPage = () => {
                         <div
                             className={classes.mailInput}
                         >
+
                             <input
                                 className={classes.mailInput}
                                 type="text"
