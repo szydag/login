@@ -28,10 +28,5 @@ const useStyles = createUseStyles({
             fontStyle: "normal"
         }
     ],
-    main: {
-        fontFamily: "Quicksand-SemiBold",
-        width: '100%',
-        height: '100%',
-    },
 })
 export default useStyles;

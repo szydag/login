@@ -33,7 +33,6 @@ const useStyles = createUseStyles({
         fontFamily: 'Quicksand-SemiBold',
     },
     loginPage: {
-        height: '100vh',
         display: 'flex',
         padding: '120px 80px',
         alignItems: 'flex-start',

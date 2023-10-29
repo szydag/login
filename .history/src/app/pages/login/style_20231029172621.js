@@ -33,7 +33,6 @@ const useStyles = createUseStyles({
         fontFamily: 'Quicksand-SemiBold',
     },
     loginPage: {
-        height: '100vh',
         display: 'flex',
         padding: '120px 80px',
         alignItems: 'flex-start',
@@ -46,6 +45,7 @@ const useStyles = createUseStyles({
         flexDirection: 'column',
         alignItems: 'flex-start',
         gap: '64px',
+        alignSelf: 'stretch',
     },
     logo: {
         display: 'flex',
@@ -58,6 +58,7 @@ const useStyles = createUseStyles({
         justifyContent: ' center',
         alignItems: 'flex-start',
         gap: '32px',
+        alignSelf: 'stretch',
     },
     title: {
         display: 'flex',
@@ -69,6 +70,7 @@ const useStyles = createUseStyles({
         flexDirection: 'column',
         alignItems: 'flex - start',
         gap: '16px',
+        alignSelf: 'stretch',
     },
     links: {
         display: 'flex',
@@ -83,6 +85,7 @@ const useStyles = createUseStyles({
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
+        alignSelf: 'stretch',
         borderRadius: '32px',
         border: '2px solid #FFF',
         background: 'rgba(83, 0, 148, 0.20)',
