@@ -119,14 +119,14 @@ const useStyles = createUseStyles({
     },
     mailInput: {
         display: 'flex',
-        height: '40px',
+        height: '64px',
         padding: '16px',
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'flex-start',
+        alignSelf: 'stretch',
         borderRadius: '12px',
         border: '2px solid #FFF',
-        alignSelf: 'stretch',
     },
     content: {
         width: '100%',
@@ -137,12 +137,11 @@ const useStyles = createUseStyles({
         gap: '6px',
     },
     input: {
-        width: '90%',
+        width: '100%',
         height:'100%',
         border: 'none',
         background: 'rgba(255, 255, 255, 0.00)',
-        color: '#530094',
-        fontSize: '24px'
+        color: 'rgb(0, 0, 0)'
     },
     inputTitle: {
         display: 'flex',
@@ -155,7 +154,7 @@ const useStyles = createUseStyles({
     },
     passwordInput: {
         display: 'flex',
-        height: '40px',
+        height: '64px',
         padding: '16px',
         justifyContent: 'space-between',
         alignItems: 'center',

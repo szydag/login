@@ -99,24 +99,26 @@ const LoginPage = () => {
                         <div
                             className={classes.mailInput}
                         >
-
-                            <div
-                                className={classes.content}
+                            <input
+                                className={classes.mailInput}
+                                type="text"
+                                placeholder='example@gmail.com'
                             >
-                                <div
-                                    className={classes.inputTitle}
-                                >
-                                    <h5>Your E-mail  Address</h5>
-                                </div>
                                 <MailIcon
                                     color='#ffffff'
                                     size={30}
-                                />
-                                <input
-                                    className={classes.input}
-                                    type="text"
-                                    placeholder='example@gmail.com'
-                                />
+                                ></MailIcon>
+                            </input>
+                            <div
+                                className={classes.content}
+                            >
+
+
+                            </div>
+                            <div
+                                className={classes.inputTitle}
+                            >
+                                <h5>Your E-mail  Address</h5>
                             </div>
                         </div>
                         <div
@@ -125,26 +127,23 @@ const LoginPage = () => {
                             <div
                                 className={classes.content}
                             >
-                                <div
-                                    className={classes.inputTitle}
-                                >
-                                    <h5>Your Password</h5>
-                                </div>
                                 <PasswordIcon
                                     color='#ffffff'
                                     size={30}
-                                />
-                                <input
-                                    className={classes.input}
-                                    type="password"
-                                    placeholder='********'
-                                />
+                                >
+                                </PasswordIcon>
                                 <HiddenIcon
                                     color='#ffffff'
                                     size={30}
-                                />
-                            </div>
+                                >
 
+                                </HiddenIcon>
+                            </div>
+                            <div
+                                className={classes.inputTitle}
+                            >
+                                <h5>Your Password</h5>
+                            </div>
 
                         </div>
                     </div>

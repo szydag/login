@@ -137,7 +137,7 @@ const useStyles = createUseStyles({
         gap: '6px',
     },
     input: {
-        width: '90%',
+        width: '100%',
         height:'100%',
         border: 'none',
         background: 'rgba(255, 255, 255, 0.00)',

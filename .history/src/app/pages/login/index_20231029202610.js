@@ -113,7 +113,7 @@ const LoginPage = () => {
                                     size={30}
                                 />
                                 <input
-                                    className={classes.input}
+                                    className={classes.mailInput}
                                     type="text"
                                     placeholder='example@gmail.com'
                                 />
@@ -135,7 +135,7 @@ const LoginPage = () => {
                                     size={30}
                                 />
                                 <input
-                                    className={classes.input}
+                                    className={classes.mailInput}
                                     type="password"
                                     placeholder='********'
                                 />

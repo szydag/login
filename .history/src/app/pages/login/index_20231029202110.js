@@ -112,8 +112,9 @@ const LoginPage = () => {
                                     color='#ffffff'
                                     size={30}
                                 />
+
                                 <input
-                                    className={classes.input}
+                                    className={classes.mailInput}
                                     type="text"
                                     placeholder='example@gmail.com'
                                 />
@@ -133,16 +134,14 @@ const LoginPage = () => {
                                 <PasswordIcon
                                     color='#ffffff'
                                     size={30}
-                                />
-                                <input
-                                    className={classes.input}
-                                    type="password"
-                                    placeholder='********'
-                                />
+                                >
+                                </PasswordIcon>
                                 <HiddenIcon
                                     color='#ffffff'
                                     size={30}
-                                />
+                                >
+
+                                </HiddenIcon>
                             </div>
 
 
