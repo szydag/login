@@ -80,6 +80,7 @@ const useStyles = createUseStyles({
     loginAreaContainer: {
         width: '50%',
         display: 'flex',
+        padding: '120px',
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',

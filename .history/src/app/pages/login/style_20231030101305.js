@@ -77,14 +77,8 @@ const useStyles = createUseStyles({
         alignItems: 'flex-start',
         gap: '8px',
     },
-    loginAreaContainer: {
-        width: '50%',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
     loginArea: {
+        margin:"120px",
         display: 'flex',
         padding: '64px',
         flexDirection: 'column',
@@ -136,7 +130,7 @@ const useStyles = createUseStyles({
     },
     content: {
         width: '100%',
-        height: '100%',
+        height:'100%',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -144,7 +138,7 @@ const useStyles = createUseStyles({
     },
     input: {
         width: '90%',
-        height: '100%',
+        height:'100%',
         border: 'none',
         background: 'rgba(255, 255, 255, 0.00)',
         color: '#530094',

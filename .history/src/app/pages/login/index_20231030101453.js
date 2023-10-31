@@ -78,9 +78,7 @@ const LoginPage = () => {
 
             </div>
         </div>
-        <div
-            className={classes.loginAreaContainer}
-        >
+        <div>
             <div
                 className={classes.loginArea}
             >
