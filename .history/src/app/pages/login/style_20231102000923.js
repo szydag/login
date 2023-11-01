@@ -34,7 +34,6 @@ const useStyles = createUseStyles({
     },
     loginPage: {
         margin: "-10px",
-        padding: '60px 40px',
         height: '100vh',
         display: 'flex',
         alignItems: 'flex-start',
@@ -47,7 +46,6 @@ const useStyles = createUseStyles({
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        padding: '0 5%',
     },
     promotionTexts: {
         display: 'flex',
@@ -90,7 +88,6 @@ const useStyles = createUseStyles({
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        padding: '0 8px',
     },
     loginArea: {
         display: 'flex',

@@ -47,7 +47,6 @@ const useStyles = createUseStyles({
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        padding: '0 5%',
     },
     promotionTexts: {
         display: 'flex',
@@ -90,7 +89,6 @@ const useStyles = createUseStyles({
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        padding: '0 8px',
     },
     loginArea: {
         display: 'flex',

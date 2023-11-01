@@ -47,7 +47,7 @@ const useStyles = createUseStyles({
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        padding: '0 5%',
+        padding: '0 6%',
     },
     promotionTexts: {
         display: 'flex',
