@@ -194,6 +194,8 @@ const useStyles = createUseStyles({
         gap: '8px',
     },
     socialMediaIcons: {
+        width: '140px',
+        height: '31.492px',
         gap: '40px'
     },
     newAccountArea: {

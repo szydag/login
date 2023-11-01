@@ -189,12 +189,7 @@ const LoginPage = () => {
                     <div
                         className={classes.newAccountArea}
                     >
-                        <span>
-                            Don't have an account?
-                        </span>
-                        <a href="">
-                            Create
-                        </a>
+
                     </div>
                 </div>
             </div>

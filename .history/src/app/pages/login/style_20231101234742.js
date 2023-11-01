@@ -194,7 +194,7 @@ const useStyles = createUseStyles({
         gap: '8px',
     },
     socialMediaIcons: {
-        gap: '40px'
+
     },
     newAccountArea: {
         display: 'flex',

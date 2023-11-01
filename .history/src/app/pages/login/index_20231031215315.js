@@ -176,25 +176,23 @@ const LoginPage = () => {
                         <GoogleIcon
                             color='#ffffff'
                             size={30}
-                        />
+                        >
+                        </GoogleIcon>
                         <FacebookIcon
                             color='#ffffff'
                             size={30}
-                        />
+                        >
+                        </FacebookIcon>
                         <LinkedInIcon
                             color='#ffffff'
                             size={30}
-                        />
+                        >
+                        </LinkedInIcon>
                     </div>
                     <div
                         className={classes.newAccountArea}
                     >
-                        <span>
-                            Don't have an account?
-                        </span>
-                        <a href="">
-                            Create
-                        </a>
+
                     </div>
                 </div>
             </div>
