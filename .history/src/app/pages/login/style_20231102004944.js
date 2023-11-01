@@ -29,8 +29,10 @@ const useStyles = createUseStyles({
             fontStyle: "normal"
         }
     ],
+    h1: {
+        fontFamily: 'Quicksand-SemiBold',
+    },
     loginPage: {
-        color:'#ffffff',
         margin: "-10px",
         padding: '60px 40px',
         height: '100vh',
@@ -70,15 +72,13 @@ const useStyles = createUseStyles({
         alignItems: 'flex-start',
         gap: '8px',
     },
-    titleText: {
+    welcomeText: {
+        color: '#530094',
         fontFamily: 'Quicksand-Regular',
         fontSize: '35px',
         fontStyle: 'normal',
         fontWeight: '700',
         lineHeight: 'normal',
-    },
-    welcomeText: {
-        color: '#530094',
     },
     contentText: {
         display: 'flex',

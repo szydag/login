@@ -39,11 +39,7 @@ const LoginPage = () => {
                         >
                             WELCOME
                         </h1>
-                        <h1
-                            className={`${classes.titleText} ${classes.backText}`}
-                        >
-                            BACK!
-                        </h1>
+                        <h1>BACK!</h1>
                     </div>
                     <div
                         className={classes.contentText}

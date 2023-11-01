@@ -80,11 +80,15 @@ const useStyles = createUseStyles({
     welcomeText: {
         color: '#530094',
     },
+    backText:{
+        color: '#ffffff',
+    },
     contentText: {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'flex - start',
         gap: '8px',
+        color:'#ffffff',
     },
     links: {
         display: 'flex',

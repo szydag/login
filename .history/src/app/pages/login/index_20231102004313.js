@@ -35,15 +35,8 @@ const LoginPage = () => {
                         className={classes.title}
                     >
                         <h1
-                            className={`${classes.titleText} ${classes.welcomeText}`}
-                        >
-                            WELCOME
-                        </h1>
-                        <h1
-                            className={`${classes.titleText} ${classes.backText}`}
-                        >
-                            BACK!
-                        </h1>
+                        style={color}>WELCOME</h1>
+                        <h1>BACK!</h1>
                     </div>
                     <div
                         className={classes.contentText}

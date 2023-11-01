@@ -29,8 +29,10 @@ const useStyles = createUseStyles({
             fontStyle: "normal"
         }
     ],
+    h1: {
+        fontFamily: 'Quicksand-SemiBold',
+    },
     loginPage: {
-        color:'#ffffff',
         margin: "-10px",
         padding: '60px 40px',
         height: '100vh',
@@ -79,6 +81,9 @@ const useStyles = createUseStyles({
     },
     welcomeText: {
         color: '#530094',
+    },
+    backText:{
+        color: '#ffffff',
     },
     contentText: {
         display: 'flex',
