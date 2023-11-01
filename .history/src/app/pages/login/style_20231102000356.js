@@ -184,7 +184,7 @@ const useStyles = createUseStyles({
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        gap: '24px',
+        gap: '48px',
     },
     accountSettingsTitle: {
         display: 'flex',
@@ -193,13 +193,13 @@ const useStyles = createUseStyles({
         gap: '8px',
     },
     socialMediaIcons: {
-        gap: '20px'
+        gap: '40px'
     },
     newAccountArea: {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'flex-start',
-        gap: '8px',
+        gap: '16px',
     },
 })
 export default useStyles;
