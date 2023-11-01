@@ -41,7 +41,7 @@ const useStyles = createUseStyles({
         background: 'linear-gradient(113deg, #B9A675 0%, #D685D3 0%, #5CAEE9 100%)',
     },
     promotionTexts: {
-        width: '50%',
+        width: '40%',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'flex-start',

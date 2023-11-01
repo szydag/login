@@ -14,9 +14,7 @@ const LoginPage = () => {
     return <div
         className={classes.loginPage}
     >
-        <div
-            className={classes.promotionTextsContainer}
-        >
+        <div>
             <div
                 className={classes.promotionTexts}
             >

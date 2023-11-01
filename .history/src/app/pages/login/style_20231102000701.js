@@ -36,6 +36,7 @@ const useStyles = createUseStyles({
         margin: "-10px",
         height: '100vh',
         display: 'flex',
+        padding: '120px 80px',
         alignItems: 'flex-start',
         gap: '64px',
         background: 'linear-gradient(113deg, #B9A675 0%, #D685D3 0%, #5CAEE9 100%)',
