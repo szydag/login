@@ -8,13 +8,17 @@ import GoogleIcon from './../../../assets/svgr/googleIcon/index.js'
 import FacebookIcon from './../../../assets/svgr/facebookIcon/index.js'
 import LinkedInIcon from './../../../assets/svgr/linkedInIcon/index.js'
 import React, { useState } from 'react';
+
 const LoginPage = () => {
 
-    const [showPassword, setShowPassword] = useState(false);
+    const PasswordInput = () => {
+        const [password, setPassword] = useState('');
+        const [showPassword, setShowPassword] = useState(false);
 
-    const handleTogglePassword = () => {
-        setShowPassword(!showPassword);
-    };
+        const toggleShowPassword = () => {
+            setShowPassword(!showPassword);
+        };
+    }
     const classes = useStyles();
     return <div
         className={classes.loginPage}
@@ -136,19 +140,31 @@ const LoginPage = () => {
                                     />
                                 </div>
                             </div>
-                            <div className={classes.passwordInput}>
-                                <div className={classes.content}>
-                                    <PasswordIcon color='#ffffff' size={30} />
-                                    <input
-                                        className={classes.input}
-                                        type={showPassword ? 'text' : 'password'}
-                                        placeholder='********'
+                            <div
+                                className={classes.passwordInput}
+                            >
+                                <div
+                                    className={classes.content}
+                                >
+                                    <PasswordIcon
+                                        color='#ffffff'
+                                        size={30}
                                     />
+                                    <label>
+                                        Password:
+                                        <input
+                                            className={classes.input}
+                                            placeholder='********'
+                                            type={showPassword ? 'text' : 'password'}
+                                            value={password}
+                                            onChange={(e) => setPassword(e.target.value)}
+                                        />
+                                    </label>
                                     <button
-                                        className={`${classes.hiddenIconButton} ${showPassword ? classes.active : ''}`}
-                                        onClick={handleTogglePassword}
+                                        className='hiddenIcon'
+                                        onClick={toggleShowPassword}
                                     >
-                                        <HiddenIcon color='#ffffff' size={40} />
+                                        {showPassword ? 'Hide' : 'Show'} Password
                                     </button>
                                 </div>
                             </div>
@@ -227,7 +243,7 @@ const LoginPage = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </div >
 }
 
 export default LoginPage;

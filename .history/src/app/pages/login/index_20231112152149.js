@@ -7,14 +7,18 @@ import UnhiddenIcon from './../../../assets/svgr/unhiddenIcon/index.js'
 import GoogleIcon from './../../../assets/svgr/googleIcon/index.js'
 import FacebookIcon from './../../../assets/svgr/facebookIcon/index.js'
 import LinkedInIcon from './../../../assets/svgr/linkedInIcon/index.js'
-import React, { useState } from 'react';
+import handleFocus from './style.js'
+import handleBlur from './style.js'
 const LoginPage = () => {
 
-    const [showPassword, setShowPassword] = useState(false);
-
-    const handleTogglePassword = () => {
-        setShowPassword(!showPassword);
-    };
+    const open = document.querySelector("#hiddenIconButton");
+    open.onclick = function (e) {
+        if (e.target.classList == "active") {
+            e.target.classList.remove("active");
+        } else {
+            e.target.classList.add("active");
+        }
+    }
     const classes = useStyles();
     return <div
         className={classes.loginPage}

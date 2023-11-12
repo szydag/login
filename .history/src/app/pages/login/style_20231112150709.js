@@ -159,16 +159,8 @@ const useStyles = createUseStyles({
         border: '2px solid #FFF',
     },
     hiddenIconButton: {
-        margin: '0',
-        padding: '0',
-        border: 'none',
-        background: 'none',
-        font: 'inherit',
-        cursor: 'pointer',
-        outline: 'none',
-    },
-    active: {
-        color: '#530094',
+       textDecoration: 'none',
+       border: 'none',
     },
     passwordSettingsArea: {
         display: 'flex',

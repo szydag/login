@@ -7,14 +7,11 @@ import UnhiddenIcon from './../../../assets/svgr/unhiddenIcon/index.js'
 import GoogleIcon from './../../../assets/svgr/googleIcon/index.js'
 import FacebookIcon from './../../../assets/svgr/facebookIcon/index.js'
 import LinkedInIcon from './../../../assets/svgr/linkedInIcon/index.js'
-import React, { useState } from 'react';
+import handleFocus from './style.js'
+import handleBlur from './style.js'
 const LoginPage = () => {
 
-    const [showPassword, setShowPassword] = useState(false);
-
-    const handleTogglePassword = () => {
-        setShowPassword(!showPassword);
-    };
+    const hiddenIconState = false;
     const classes = useStyles();
     return <div
         className={classes.loginPage}
@@ -136,19 +133,29 @@ const LoginPage = () => {
                                     />
                                 </div>
                             </div>
-                            <div className={classes.passwordInput}>
-                                <div className={classes.content}>
-                                    <PasswordIcon color='#ffffff' size={30} />
+                            <div
+                                className={classes.passwordInput}
+                            >
+                                <div
+                                    className={classes.content}
+                                >
+                                    <PasswordIcon
+                                        color='#ffffff'
+                                        size={30}
+                                    />
                                     <input
                                         className={classes.input}
-                                        type={showPassword ? 'text' : 'password'}
+                                        type="password"
                                         placeholder='********'
                                     />
                                     <button
-                                        className={`${classes.hiddenIconButton} ${showPassword ? classes.active : ''}`}
-                                        onClick={handleTogglePassword}
+                                        className={classes.input}
+
                                     >
-                                        <HiddenIcon color='#ffffff' size={40} />
+                                        <HiddenIcon
+                                            color='#ffffff'
+                                            size={40}
+                                        />
                                     </button>
                                 </div>
                             </div>

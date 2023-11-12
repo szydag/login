@@ -167,9 +167,6 @@ const useStyles = createUseStyles({
         cursor: 'pointer',
         outline: 'none',
     },
-    active: {
-        color: '#530094',
-    },
     passwordSettingsArea: {
         display: 'flex',
         justifyContent: 'space-between',
