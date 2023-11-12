@@ -2,6 +2,33 @@
 import { createUseStyles } from "react-jss";
 
 const useStyles = createUseStyles({
+    "@font-face": [
+        {
+            fontFamily: "Quicksand-Bold",
+            src: 'url("/public/assets/fonts/Quicksand-Bold.ttf")',
+            fontStyle: "normal"
+        },
+        {
+            fontFamily: "Quicksand-Light",
+            src: 'url("/public/assets/fonts/Quicksand-Light.ttf")',
+            fontStyle: "normal"
+        },
+        {
+            fontFamily: "Quicksand-Medium",
+            src: 'url("/public/assets/fonts/Quicksand-Medium.ttf")',
+            fontStyle: "normal"
+        },
+        {
+            fontFamily: "Quicksand-Regular",
+            src: 'url("/public/assets/fonts/Quicksand-Regular.ttf")',
+            fontStyle: "normal"
+        },
+        {
+            fontFamily: "Quicksand-SemiBold",
+            src: 'url("/public/assets/fonts/Quicksand-SemiBold.ttf")',
+            fontStyle: "normal"
+        }
+    ],
     loginPage: {
         color: '#ffffff',
         margin: "-10px",
@@ -67,7 +94,6 @@ const useStyles = createUseStyles({
     },
     link: {
         textDecoration: 'none',
-        color: '#530094',
     },
     loginAreaContainer: {
         width: '50%',
@@ -78,7 +104,6 @@ const useStyles = createUseStyles({
         padding: '0 8px',
     },
     loginArea: {
-        width: '80%',
         display: 'flex',
         padding: '32px',
         flexDirection: 'column',
@@ -88,15 +113,14 @@ const useStyles = createUseStyles({
         border: '2px solid #FFF',
         background: 'rgba(83, 0, 148, 0.20)',
         backdropFilter: 'blur(45px)',
-        gap: '16px',
     },
     header: {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
+        gap: '8px',
     },
     container: {
-        width: '100%',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'flex-start',
@@ -104,7 +128,6 @@ const useStyles = createUseStyles({
         alignSelf: 'stretch',
     },
     loginMainContent: {
-        width: '100%',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
@@ -113,11 +136,11 @@ const useStyles = createUseStyles({
         alignSelf: 'stretch',
     },
     inputArea: {
-        width: '100%',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'flex-start',
         gap: '16px',
+        alignSelf: 'stretch',
     },
     mailInput: {
         display: 'flex',
@@ -144,8 +167,7 @@ const useStyles = createUseStyles({
         border: 'none',
         background: 'rgba(255, 255, 255, 0.00)',
         color: '#530094',
-        fontSize: '15px'
-    
+        fontSize: '24px'
     },
     passwordInput: {
         display: 'flex',
@@ -190,9 +212,7 @@ const useStyles = createUseStyles({
         gap: '8px',
     },
     socialMediaIcons: {
-        display: 'flex',
-        flexDirection: 'row',
-        gap: '16px'
+        gap: '20px'
     },
     newAccountArea: {
         display: 'flex',

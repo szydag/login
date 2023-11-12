@@ -101,7 +101,7 @@ const LoginPage = () => {
                 <div
                     className={classes.header}
                 >
-                    <h1>LOGIN</h1>
+                    <h2>LOGIN</h2>
                     <h5>Please login to your account</h5>
                 </div>
                 <div
@@ -148,9 +148,11 @@ const LoginPage = () => {
                                     />
                                     <HiddenIcon
                                         color='#ffffff'
-                                        size={40}
+                                        size={30}
                                     />
                                 </div>
+
+
                             </div>
                         </div>
                         <div
@@ -162,9 +164,7 @@ const LoginPage = () => {
                                 <h5>Member Me</h5>
                             </div>
                             <h5>
-                                <a
-                                    className={classes.link}
-                                    href="">
+                                <a href="">
                                     Forget Password
                                 </a>
                             </h5>
@@ -182,35 +182,25 @@ const LoginPage = () => {
                     <div
                         className={classes.accountSettingsTitle}
                     >
-                        Or login with social media
+                        <span>
+                            Or login with social media
+                        </span>
                     </div>
                     <div
                         className={classes.socialMediaIcons}
                     >
-                        <div
-                            className={classes.icon}
-                        >
-                            <GoogleIcon
-                                color='#ffffff'
-                                size={35}
-                            />
-                        </div>
-                        <div
-                            className={classes.icon}
-                        >
-                            <FacebookIcon
-                                color='#ffffff'
-                                size={35}
-                            />
-                        </div>
-                        <div
-                            className={classes.icon}
-                        >
-                            <LinkedInIcon
-                                color='#ffffff'
-                                size={35}
-                            />
-                        </div>
+                        <GoogleIcon
+                            color='#ffffff'
+                            size={30}
+                        />
+                        <FacebookIcon
+                            color='#ffffff'
+                            size={30}
+                        />
+                        <LinkedInIcon
+                            color='#ffffff'
+                            size={30}
+                        />
                     </div>
                     <div
                         className={classes.newAccountArea}
@@ -218,9 +208,7 @@ const LoginPage = () => {
                         <span>
                             Don't have an account?
                         </span>
-                        <a
-                            className={classes.link}
-                            href="">
+                        <a href="">
                             Create
                         </a>
                     </div>

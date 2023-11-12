@@ -120,6 +120,7 @@ const useStyles = createUseStyles({
         gap: '16px',
     },
     mailInput: {
+        width: '100%',
         display: 'flex',
         height: '25px',
         padding: '16px',
@@ -145,7 +146,6 @@ const useStyles = createUseStyles({
         background: 'rgba(255, 255, 255, 0.00)',
         color: '#530094',
         fontSize: '15px'
-    
     },
     passwordInput: {
         display: 'flex',

@@ -143,7 +143,7 @@ const useStyles = createUseStyles({
         height: '100%',
         border: 'none',
         background: 'rgba(255, 255, 255, 0.00)',
-        color: '#530094',
+        color: '#ffffff',
         fontSize: '15px'
     
     },

@@ -96,7 +96,6 @@ const useStyles = createUseStyles({
         alignItems: 'center',
     },
     container: {
-        width: '100%',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'flex-start',
@@ -104,6 +103,7 @@ const useStyles = createUseStyles({
         alignSelf: 'stretch',
     },
     loginMainContent: {
+        
         width: '100%',
         display: 'flex',
         flexDirection: 'column',
@@ -113,7 +113,6 @@ const useStyles = createUseStyles({
         alignSelf: 'stretch',
     },
     inputArea: {
-        width: '100%',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'flex-start',
@@ -145,7 +144,6 @@ const useStyles = createUseStyles({
         background: 'rgba(255, 255, 255, 0.00)',
         color: '#530094',
         fontSize: '15px'
-    
     },
     passwordInput: {
         display: 'flex',

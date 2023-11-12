@@ -148,7 +148,7 @@ const LoginPage = () => {
                                     />
                                     <HiddenIcon
                                         color='#ffffff'
-                                        size={40}
+                                        size={20}
                                     />
                                 </div>
                             </div>

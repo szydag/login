@@ -101,7 +101,7 @@ const LoginPage = () => {
                 <div
                     className={classes.header}
                 >
-                    <h1>LOGIN</h1>
+                    <h2>LOGIN</h2>
                     <h5>Please login to your account</h5>
                 </div>
                 <div
@@ -148,7 +148,7 @@ const LoginPage = () => {
                                     />
                                     <HiddenIcon
                                         color='#ffffff'
-                                        size={40}
+                                        size={30}
                                     />
                                 </div>
                             </div>
@@ -192,25 +192,17 @@ const LoginPage = () => {
                         >
                             <GoogleIcon
                                 color='#ffffff'
-                                size={35}
+                                size={30}
                             />
                         </div>
-                        <div
-                            className={classes.icon}
-                        >
-                            <FacebookIcon
-                                color='#ffffff'
-                                size={35}
-                            />
-                        </div>
-                        <div
-                            className={classes.icon}
-                        >
-                            <LinkedInIcon
-                                color='#ffffff'
-                                size={35}
-                            />
-                        </div>
+                        <FacebookIcon
+                            color='#ffffff'
+                            size={30}
+                        />
+                        <LinkedInIcon
+                            color='#ffffff'
+                            size={30}
+                        />
                     </div>
                     <div
                         className={classes.newAccountArea}
