@@ -145,7 +145,7 @@ const useStyles = createUseStyles({
         color: '#530094',
         fontSize: '15px',
         "&:focus": {
-            outline: 'none',
+            border: 'none',
         }
     },
     passwordInput: {

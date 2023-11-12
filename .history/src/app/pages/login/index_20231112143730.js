@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from 'react'
 import useStyles from './style';
 import logo from './../../../assets/logo.png'
 import MailIcon from './../../../assets/svgr/mailIcon/index.js'
@@ -130,6 +131,8 @@ const LoginPage = () => {
                                         className={classes.input}
                                         type="text"
                                         placeholder='example@gmail.com'
+                                        onFocus={handleFocus}
+                                        onBlur={handleBlur}
                                     />
                                 </div>
                             </div>
@@ -147,6 +150,8 @@ const LoginPage = () => {
                                         className={classes.input}
                                         type="password"
                                         placeholder='********'
+                                        onFocus={handleFocus}
+                                        onBlur={handleBlur}
                                     />
                                     <HiddenIcon
                                         color='#ffffff'

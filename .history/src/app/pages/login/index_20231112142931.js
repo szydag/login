@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from 'react'
 import useStyles from './style';
 import logo from './../../../assets/logo.png'
 import MailIcon from './../../../assets/svgr/mailIcon/index.js'
@@ -7,10 +8,20 @@ import UnhiddenIcon from './../../../assets/svgr/unhiddenIcon/index.js'
 import GoogleIcon from './../../../assets/svgr/googleIcon/index.js'
 import FacebookIcon from './../../../assets/svgr/facebookIcon/index.js'
 import LinkedInIcon from './../../../assets/svgr/linkedInIcon/index.js'
-import handleFocus from './style.js'
-import handleBlur from './style.js'
 const LoginPage = () => {
-   
+    const [isFocused, setIsFocused] = useState(false);
+
+    const handleFocus = () => {
+        setIsFocused(true);
+    };
+
+    const handleBlur = () => {
+        setIsFocused(false);
+    };
+
+    const input = {
+        border: isFocused ? 'none' : '1px solid #ccc',
+    };
 
     const classes = useStyles();
     return <div
@@ -130,6 +141,8 @@ const LoginPage = () => {
                                         className={classes.input}
                                         type="text"
                                         placeholder='example@gmail.com'
+                                        onFocus={handleFocus}
+                                        onBlur={handleBlur}
                                     />
                                 </div>
                             </div>
@@ -147,6 +160,8 @@ const LoginPage = () => {
                                         className={classes.input}
                                         type="password"
                                         placeholder='********'
+                                        onFocus={handleFocus}
+                                        onBlur={handleBlur}
                                     />
                                     <HiddenIcon
                                         color='#ffffff'

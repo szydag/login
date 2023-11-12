@@ -130,6 +130,8 @@ const LoginPage = () => {
                                         className={classes.input}
                                         type="text"
                                         placeholder='example@gmail.com'
+                                        onFocus={handleFocus}
+                                        onBlur={handleBlur}
                                     />
                                 </div>
                             </div>
@@ -147,6 +149,8 @@ const LoginPage = () => {
                                         className={classes.input}
                                         type="password"
                                         placeholder='********'
+                                        onFocus={handleFocus}
+                                        onBlur={handleBlur}
                                     />
                                     <HiddenIcon
                                         color='#ffffff'

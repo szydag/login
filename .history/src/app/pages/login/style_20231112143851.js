@@ -143,10 +143,8 @@ const useStyles = createUseStyles({
         border: 'none',
         background: 'rgba(255, 255, 255, 0.00)',
         color: '#530094',
-        fontSize: '15px',
-        "&:focus": {
-            outline: 'none',
-        }
+        fontSize: '15px'
+
     },
     passwordInput: {
     display: 'flex',

@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react'
 import useStyles from './style';
 import logo from './../../../assets/logo.png'
 import MailIcon from './../../../assets/svgr/mailIcon/index.js'
@@ -7,10 +8,7 @@ import UnhiddenIcon from './../../../assets/svgr/unhiddenIcon/index.js'
 import GoogleIcon from './../../../assets/svgr/googleIcon/index.js'
 import FacebookIcon from './../../../assets/svgr/facebookIcon/index.js'
 import LinkedInIcon from './../../../assets/svgr/linkedInIcon/index.js'
-import handleFocus from './style.js'
-import handleBlur from './style.js'
 const LoginPage = () => {
-   
 
     const classes = useStyles();
     return <div
